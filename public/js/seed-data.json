@@ -1,0 +1,336 @@
+{
+  "users": [
+    {
+      "id": "u-student-1",
+      "name": "Atharva Sharma",
+      "email": "student@somaiya.edu",
+      "role": "student"
+    },
+    {
+      "id": "u-student-2",
+      "name": "Priya Mehta",
+      "email": "priya@somaiya.edu",
+      "role": "student"
+    },
+    {
+      "id": "u-admin-1",
+      "name": "Dr. Rajesh Kumar",
+      "email": "admin@somaiya.edu",
+      "role": "admin"
+    }
+  ],
+  "items": [
+    {
+      "id": "item-1",
+      "reportId": "LF-2026-00124",
+      "type": "found",
+      "name": "Black Wallet",
+      "category": "Wallet",
+      "description": "Black leather wallet found near the classroom entrance.",
+      "date": "2026-09-18",
+      "time": "14:30",
+      "location": {
+        "building": "Arya Bhatta",
+        "floor": "2nd",
+        "classroom": "203",
+        "specificLocation": "Outside Classroom"
+      },
+      "status": "verified",
+      "studentId": "u-student-2",
+      "studentName": "Priya Mehta",
+      "createdAt": "2026-09-18T14:30:00",
+      "imageUrl": "/images/items/wallet.jpg"
+    },
+    {
+      "id": "item-2",
+      "reportId": "LF-2026-00125",
+      "type": "found",
+      "name": "Blue Water Bottle",
+      "category": "Accessories",
+      "description": "Steel water bottle with Somaiya sticker.",
+      "date": "2026-09-17",
+      "time": "11:00",
+      "location": {
+        "building": "Bhaskaracharya",
+        "floor": "3rd",
+        "classroom": "302",
+        "specificLocation": "Corridor bench"
+      },
+      "status": "verified",
+      "studentId": "u-student-1",
+      "studentName": "Atharva Sharma",
+      "createdAt": "2026-09-17T11:00:00",
+      "imageUrl": "/images/items/water-bottle.jpg"
+    },
+    {
+      "id": "item-3",
+      "reportId": "LF-2026-00126",
+      "type": "found",
+      "name": "AirPods Case",
+      "category": "Electronics",
+      "description": "White Apple AirPods case, no earbuds inside.",
+      "date": "2026-09-16",
+      "location": {
+        "building": "Arya Bhatta",
+        "floor": "1st",
+        "commonLocation": "Library"
+      },
+      "status": "verified",
+      "studentId": "u-student-2",
+      "studentName": "Priya Mehta",
+      "createdAt": "2026-09-16T09:15:00",
+      "imageUrl": "/images/items/airpods-case.jpg"
+    },
+    {
+      "id": "item-4",
+      "reportId": "LF-2026-00127",
+      "type": "found",
+      "name": "Black Backpack",
+      "category": "Bags",
+      "description": "Nike black backpack with laptop compartment.",
+      "date": "2026-09-15",
+      "location": {
+        "building": "Bhaskaracharya",
+        "floor": "4th",
+        "classroom": "402",
+        "specificLocation": "Near lift"
+      },
+      "status": "approved",
+      "studentId": "u-student-1",
+      "studentName": "Atharva Sharma",
+      "createdAt": "2026-09-15T16:45:00",
+      "imageUrl": "/images/items/backpack.jpg"
+    },
+    {
+      "id": "item-5",
+      "reportId": "LF-2026-00128",
+      "type": "found",
+      "name": "Scientific Calculator",
+      "category": "Stationery",
+      "description": "Casio fx-991EX calculator in blue cover.",
+      "date": "2026-09-14",
+      "location": {
+        "building": "Arya Bhatta",
+        "floor": "3rd",
+        "classroom": "301",
+        "specificLocation": "Lab desk"
+      },
+      "status": "verified",
+      "studentId": "u-student-2",
+      "studentName": "Priya Mehta",
+      "createdAt": "2026-09-14T13:20:00",
+      "imageUrl": "/images/items/calculator.jpg"
+    },
+    {
+      "id": "item-6",
+      "reportId": "LF-2026-00129",
+      "type": "found",
+      "name": "Student ID Card",
+      "category": "ID Card",
+      "description": "Somaiya student ID — name partially visible.",
+      "date": "2026-09-13",
+      "location": {
+        "building": "Bhaskaracharya",
+        "floor": "Ground",
+        "commonLocation": "Canteen"
+      },
+      "status": "verified",
+      "studentId": "u-student-1",
+      "studentName": "Atharva Sharma",
+      "createdAt": "2026-09-13T12:00:00",
+      "imageUrl": "/images/items/id-card.jpg"
+    },
+    {
+      "id": "item-7",
+      "reportId": "LF-2026-00130",
+      "type": "found",
+      "name": "Umbrella",
+      "category": "Accessories",
+      "description": "Compact black foldable umbrella.",
+      "date": "2026-09-12",
+      "location": {
+        "building": "Arya Bhatta",
+        "floor": "Ground",
+        "commonLocation": "Parking"
+      },
+      "status": "verified",
+      "studentId": "u-student-2",
+      "studentName": "Priya Mehta",
+      "createdAt": "2026-09-12T08:30:00",
+      "imageUrl": "/images/items/umbrella.jpg"
+    },
+    {
+      "id": "item-8",
+      "reportId": "LF-2026-00131",
+      "type": "found",
+      "name": "USB Drive (32GB)",
+      "category": "Electronics",
+      "description": "SanDisk USB with red cap.",
+      "date": "2026-09-11",
+      "location": {
+        "building": "Bhaskaracharya",
+        "floor": "2nd",
+        "classroom": "201",
+        "specificLocation": "Computer lab"
+      },
+      "status": "verified",
+      "studentId": "u-student-1",
+      "studentName": "Atharva Sharma",
+      "createdAt": "2026-09-11T15:00:00",
+      "imageUrl": "/images/items/usb-drive.jpg"
+    },
+    {
+      "id": "item-9",
+      "reportId": "LF-2026-00132",
+      "type": "found",
+      "name": "Spectacles",
+      "category": "Accessories",
+      "description": "Round frame black spectacles in case.",
+      "date": "2026-09-10",
+      "location": {
+        "building": "Arya Bhatta",
+        "floor": "2nd",
+        "commonLocation": "Auditorium"
+      },
+      "status": "verified",
+      "studentId": "u-student-2",
+      "studentName": "Priya Mehta",
+      "createdAt": "2026-09-10T10:00:00",
+      "imageUrl": "/images/items/spectacles.jpg"
+    },
+    {
+      "id": "item-10",
+      "reportId": "LF-2026-00133",
+      "type": "found",
+      "name": "Engineering Notebook",
+      "category": "Books",
+      "description": "Spiral notebook with thermodynamics notes.",
+      "date": "2026-09-09",
+      "location": {
+        "building": "Arya Bhatta",
+        "floor": "1st",
+        "classroom": "102",
+        "specificLocation": "Lecture hall"
+      },
+      "status": "verified",
+      "studentId": "u-student-1",
+      "studentName": "Atharva Sharma",
+      "createdAt": "2026-09-09T11:30:00",
+      "imageUrl": "/images/items/notebook.jpg"
+    },
+    {
+      "id": "item-11",
+      "reportId": "LF-2026-00134",
+      "type": "found",
+      "name": "Keychain with Keys",
+      "category": "Keys",
+      "description": "3 keys on a blue keychain with mini football charm.",
+      "date": "2026-09-08",
+      "location": {
+        "building": "Bhaskaracharya",
+        "floor": "5th",
+        "classroom": "501"
+      },
+      "status": "verified",
+      "studentId": "u-student-2",
+      "studentName": "Priya Mehta",
+      "createdAt": "2026-09-08T14:00:00",
+      "imageUrl": "/images/items/keys.jpg"
+    },
+    {
+      "id": "item-12",
+      "reportId": "LF-2026-00135",
+      "type": "found",
+      "name": "Wired Earphones",
+      "category": "Electronics",
+      "description": "Boat wired earphones in pouch.",
+      "date": "2026-09-07",
+      "location": {
+        "building": "Arya Bhatta",
+        "floor": "Ground",
+        "commonLocation": "Sports Ground"
+      },
+      "status": "pending",
+      "studentId": "u-student-1",
+      "studentName": "Atharva Sharma",
+      "createdAt": "2026-09-07T17:00:00",
+      "imageUrl": "/images/items/earphones.jpg"
+    },
+    {
+      "id": "item-lost-1",
+      "reportId": "LF-2026-00098",
+      "type": "lost",
+      "name": "Black Wallet",
+      "category": "Wallet",
+      "description": "Lost my black leather wallet with college ID inside.",
+      "date": "2026-09-17",
+      "time": "13:00",
+      "location": {
+        "building": "Arya Bhatta",
+        "floor": "2nd",
+        "classroom": "203",
+        "specificLocation": "Classroom"
+      },
+      "status": "matched",
+      "studentId": "u-student-1",
+      "studentName": "Atharva Sharma",
+      "createdAt": "2026-09-17T18:00:00",
+      "imageUrl": "/images/items/wallet.jpg"
+    },
+    {
+      "id": "item-lost-2",
+      "reportId": "LF-2026-00099",
+      "type": "lost",
+      "name": "Laptop Charger",
+      "category": "Electronics",
+      "description": "Dell 65W charger with frayed cable wrap.",
+      "date": "2026-09-10",
+      "location": {
+        "building": "Bhaskaracharya",
+        "floor": "4th",
+        "commonLocation": "Library"
+      },
+      "status": "pending",
+      "studentId": "u-student-1",
+      "studentName": "Atharva Sharma",
+      "createdAt": "2026-09-10T20:00:00",
+      "imageUrl": "/images/items/laptop-charger.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-1",
+      "claimId": "CL-2026-00042",
+      "itemId": "item-1",
+      "itemName": "Black Wallet",
+      "userId": "u-student-1",
+      "userName": "Atharva Sharma",
+      "userEmail": "student@somaiya.edu",
+      "reason": "I lost an identical wallet in the same building on the same day.",
+      "uniqueFeature": "Small tear on the inner card slot and a movie ticket stub inside.",
+      "lostDate": "2026-09-17",
+      "lastSeenLocation": "Arya Bhatta, 2nd Floor, Room 203",
+      "status": "under_review",
+      "createdAt": "2026-09-19T10:00:00"
+    }
+  ],
+  "transactions": [],
+  "notifications": [
+    {
+      "id": "notif-1",
+      "userId": "u-student-1",
+      "message": "Your claim for Black Wallet is under admin review.",
+      "read": false,
+      "createdAt": "2026-09-19T10:05:00"
+    },
+    {
+      "id": "notif-2",
+      "userId": "u-student-1",
+      "message": "Your found item report (Blue Water Bottle) has been approved.",
+      "read": true,
+      "createdAt": "2026-09-17T12:00:00"
+    }
+  ],
+  "reportSeq": 136,
+  "claimSeq": 42
+}
