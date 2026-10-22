@@ -3,6 +3,7 @@ const Item = require('../models/Item');
 const { isAuthenticated } = require('../middleware/auth');
 const router = express.Router();
 
+// 1. Get all items
 router.get('/', async (req, res) => {
     try {
         const items = await Item.find().populate('reporter', 'name email');
@@ -12,13 +13,21 @@ router.get('/', async (req, res) => {
     }
 });
 
+// 2. Create an item (Lost, Found, Sell, Rent)
 router.post('/', isAuthenticated, async (req, res) => {
     try {
-        const { title, description, type, location } = req.body;
+        const { title, description, type, category, price, location } = req.body;
+        
         const newItem = new Item({
-            title, description, type, location,
+            title, 
+            description, 
+            type, 
+            category: category || 'General',
+            price: price || 0,
+            location,
             reporter: req.session.userId
         });
+        
         await newItem.save();
         res.status(201).json({ message: 'Item reported successfully', item: newItem });
     } catch (err) {
@@ -26,6 +35,7 @@ router.post('/', isAuthenticated, async (req, res) => {
     }
 });
 
+// 3. Delete an item (Admin only)
 router.delete('/:id', isAuthenticated, async (req, res) => {
     try {
         if (req.session.role !== 'admin') {
